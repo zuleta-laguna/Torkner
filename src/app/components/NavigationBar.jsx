@@ -32,7 +32,7 @@ function NavigationBar() {
       <section className="hidden max-[834px]:block max-[830px]:fixed right-3">
        <button onClick={handleburguerListchange}><Burguersvg/></button> 
       </section>
-      <div className={!Isopen ? "hidden":"flex text-white fixed top-24 w-1/3 h-96 z-10 right-4  flex-col justify-center items-center gap-7 text-2xl font-semibold bg-[#171B29] rounded-xl animate-fade-left max-[669px]:w-2/4"}>
+      <div className={!Isopen ? "hidden":"flex text-white fixed top-24 w-1/3 h-96 z-10 right-4  flex-col justify-center items-center gap-7 text-2xl font-semibold bg-[#171B29] rounded-xl animate-fade-left max-[669px]:w-3/5"}>
           <HiperLink link="#">Our team</HiperLink>
           <HiperLink link="#">Tokens</HiperLink>
           <HiperLink link="#">Connect wallet</HiperLink>

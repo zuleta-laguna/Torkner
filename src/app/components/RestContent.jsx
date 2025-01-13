@@ -16,9 +16,9 @@ function RestContent() {
       <PresaleDetails/>
       <InfoBuy/>
       <footer className="w-full h-48 flex justify-between p-5 items-center max-[600px]:flex-col">
-        <img src="image/logo_colored_sign_black_text.png" alt="" />
-        <img src="image/Group 23.png" alt="" />
-        <img src="image/Group 22.png" alt="" />
+       <div><img src="image/logo_colored_sign_black_text.png" alt="" /></div> 
+       <div><img src="image/Group 23.png" alt="" /></div> 
+       <div><img src="image/Group 22.png" alt="" /></div>  
       </footer>
     </>
   );

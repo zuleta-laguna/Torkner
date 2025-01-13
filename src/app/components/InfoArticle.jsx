@@ -2,7 +2,7 @@ import React from 'react'
 
 function InfoArticle() {
   return (
-    <section className="text-white mt-20 max-[834px]:p-4 flex gap-7 p-24 max-[600px]:flex-col">
+    <section className="text-white mt-20 max-[834px]:p-4 flex items-center gap-7 p-24 max-[600px]:flex-col">
         <div>
           <div className="flex gap-3 items-center max-[600px]:flex-col max-[600px]:items-start">
             <img className='max-[600px]:hidden' src="image/Group 3.png" alt="" />
@@ -55,7 +55,7 @@ function InfoArticle() {
           </p>
           <button className='w-28 h-10 border mt-7 border-[#22A75D] rounded-3xl '>Read More</button>
         </div>
-        <img className="w-1/2 max-[600px]:w-full max-[834px]:h-[900px]" src="image/Group 73.png" alt="" />
+        <img className="w-2/5 max-[600px]:w-full max-[834px]:h-[900px]" src="image/Group 73.png" alt="" />
       </section>
   )
 }
