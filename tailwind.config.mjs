@@ -11,7 +11,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+       'bgSection1': "url('/image/Group 34.png')",
+       'Group6': "url('/image/Group 66.png')",
+       'GroupMobile': "url('/image/GroupMobile.png')",
+       'Maskgroup': "url('/image/Mask Group.png')",
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated'),
+  ],
 };
