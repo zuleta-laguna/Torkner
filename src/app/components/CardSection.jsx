@@ -3,9 +3,9 @@ import HiperLink from "./HiperLink";
 
 function CardSection() {
   return (
-    <section className="p-28 w-full text-white max-[8340px]:p-2 max-[834px]:mt-20 ">
-    <div className="w-full h-[400px] flex gap-3 max-[834px]:flex-col">
-      <div className="w-1/2 h-80 rounded-2xl bg-[#171B29] p-7 max-[834px]:min-h-[400px] ">
+    <section className="p-28 w-full text-white max-[834px]:h-[500px] max-[634px]:h-[800px] max-[834px]:p-2 max-[834px]:mt-20 ">
+    <div className="w-full h-[400px] flex gap-3 max-[834px]:h-[500px]  max-[634px]:flex-col">
+      <div className="w-1/2 h-80 rounded-2xl bg-[#171B29] max-[634px]:w-full p-7 max-[834px]:min-h-[400px] ">
         <img className="w-1/6" src="image/Group 67.png" alt="" />
         <h2 className="text-2xl font-medium">For <span className="text-[#22A75D] underline">Creators</span></h2>
         <p className="text-[#ffffff80]">
@@ -16,7 +16,7 @@ function CardSection() {
         </p>
         <HiperLink link="#"><span className="text-[#22A75D]">Learn More</span></HiperLink>
       </div>
-      <div className="w-1/2 h-80 rounded-2xl self-end bg-[#171B29] p-7  max-[834px]:min-h-[400px]">
+      <div className="w-1/2 h-80 rounded-2xl  self-end bg-[#171B29] p-7 max-[634px]:w-full  max-[834px]:min-h-[400px]">
         <img className="w-1/6" src="image/Group 68.png" alt="" />
         <h2 className="text-2xl font-medium">For <span className="text-[#2278D4] underline">Holders</span></h2>
         <p className="text-[#ffffff80]">

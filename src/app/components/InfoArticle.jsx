@@ -55,7 +55,7 @@ function InfoArticle() {
           </p>
           <button className='w-28 h-10 border mt-7 border-[#22A75D] rounded-3xl '>Read More</button>
         </div>
-        <img className="w-2/5 max-[600px]:w-full max-[834px]:h-[900px]" src="image/Group 73.png" alt="" />
+        <img className="w-2/5 max-[834px]:h-[500px]" src="image/Group 73.png" alt="" />
       </section>
   )
 }

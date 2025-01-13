@@ -3,7 +3,7 @@ import React from 'react'
 function InfoBG() {
   return (
         <section className="flex max-[834px]:flex-col mt-28">
-        <div className="bg-bgSection1 w-[50%] h-[500px] max-[834px]:bg-GroupMobile max-[834px]:w-full max-[600px]:h-[700px] bg-no-repeat bg-cover"></div>
+        <div className="bg-bgSection1 w-[50%] h-[500px] max-[834px]:bg-GroupMobile max-[834px]:w-full max-[600px]:h-[700px] bg-no-repeat bg-cover bg-right max-[834px]:bg-left"></div>
         <div className="bg-white w-[50%] h-[500px] max-[834px]:w-full max-[834px]:h-[700px] max-[834px]:rounded-r-[250px] max-[834px]:rounded-l-none max-[834px]:rounded-br-[0]  rounded-l-[300px] rounded-bl-none flex items-center justify-center">
           <div className="w-2/3  max-[834px]:w-full relative top-14 flex flex-col gap-2">
           <h2 className="text-3xl font-bold">What makes us different?</h2>
